@@ -1,0 +1,162 @@
+body{
+
+    background-color:#1D1C1A;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.logo-titulo {
+
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+/* ENSALADAS */
+
+.ensaladas {
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/ensaladas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ENTRANTES */
+
+.entrantes {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/entrantes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* TOSTAS */
+.tostas {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/tostas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* MINI HAMBURGESAS */
+.mini-hamburgesas {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/mini-hamburgesas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* CARNES */
+
+.carnes {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/carnes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* BOCADILLOS CALIENTES */
+
+.bocadillos-calientes {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/bocadillos-calientes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* BOCADILLOS FRIOS */
+
+.bocadillos-frios {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/bocadillos-frios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* POSTRES */
+.postres {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/postres.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* BEBIDAS */
+
+.bebidas {
+
+    text-align: center;
+    margin: 0 10px 0 10px;
+    position: relative;
+    height: 120px;
+    border-bottom: solid 1px white;
+    margin-bottom: 15px;
+
+    background-image: url(/img/bebidas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
