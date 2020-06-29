@@ -4,6 +4,14 @@ body{
     margin: 0 auto;
 }
 
+p {
+    color: white;
+    font-size: medium;
+    padding: 0 5px 0 5px;
+}
+
+
+
 a {
     color: white;
     text-decoration: none;
@@ -18,8 +26,10 @@ a {
 }
 
 .contenedor-seccion {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     margin-bottom: 15px;
     
 }
@@ -77,7 +87,21 @@ a {
     }
 }
 
+/* CONTENIDO ENSALADAS */
 
+.contenido-ensaladas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+
+
+/* /////////// FIN ENSALADAS //////////// */
 
 /* ENTRANTES */
 
@@ -133,6 +157,17 @@ a {
     }
 }
 
+.contenido-entrantes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+/* /////////// FIN ENTRANTES //////////// */
+
 /* TOSTAS */
 .tostas {
     height: 300px;
@@ -185,7 +220,17 @@ a {
     }
 }
 
+.contenido-tostas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
 
+/* /////////// FIN TOSTAS //////////// */
 
 /* MINI HAMBURGESAS */
 .mini-hamburgesas {
@@ -239,6 +284,17 @@ a {
 
     }
 }
+
+.contenido-mini-hamburgesas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+/* /////////// FIN MINI HAMBURGESAS //////////// */
 
 /* CARNES */
 
@@ -294,6 +350,18 @@ a {
     }
 }
 
+.contenido-carnes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN CARNES//////////// */
+
 /* BOCADILLOS CALIENTES */
 
 .bocadillos-calientes {
@@ -347,6 +415,18 @@ a {
 
     }
 }
+
+.contenido-bocadillos-calientes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BOCADILLOS CALIENTES //////////// */
 
 /* BOCADILLOS FRIOS */
 
@@ -402,6 +482,18 @@ a {
     }
 }
 
+.contenido-bocadillos-frios {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BOCADILLOS FRIOS //////////// */
+
 /* POSTRES */
 .postres {
 
@@ -454,6 +546,18 @@ a {
 
     }
 }
+
+.contenido-postres {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN POSTRES //////////// */
 
 /* BEBIDAS */
 
@@ -508,3 +612,15 @@ a {
 
     }
 }
+
+.contenido-bebidas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BEBIDAS //////////// */
