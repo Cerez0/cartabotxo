@@ -64,4 +64,11 @@ $(function(){
 
         $('.contenedor-bebidas').slideToggle();
     });
+
+    // Facebook
+
+    $('.facebook').on('click', function() {
+
+        location.href='https://www.facebook.com/elbotxoelche/';
+    });
 });
