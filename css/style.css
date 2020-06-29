@@ -11,14 +11,6 @@ p {
 }
 
 
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-
-}
-
 .logo-titulo {
 
     text-align: center;
@@ -89,6 +81,11 @@ a {
 
 /* CONTENIDO ENSALADAS */
 
+.contenedor-ensaladas {
+
+    display: none;
+}
+
 .contenido-ensaladas {
     text-align: center;
     display: inline-grid;
@@ -97,6 +94,7 @@ a {
     justify-items: center;
     padding: 10px;
     width: 95%;
+    
 }
 
 
@@ -155,6 +153,11 @@ a {
         height: 100px;
 
     }
+}
+
+.contenedor-entrantes {
+
+    display: none;
 }
 
 .contenido-entrantes {
@@ -218,6 +221,11 @@ a {
         height: 100px;
 
     }
+}
+
+.contenedor-tostas {
+
+    display: none;
 }
 
 .contenido-tostas {
@@ -285,6 +293,11 @@ a {
     }
 }
 
+.contenedor-mini-hamburgesas {
+
+    display: none;
+}
+
 .contenido-mini-hamburgesas {
     text-align: center;
     display: inline-grid;
@@ -348,6 +361,11 @@ a {
         height: 100px;
 
     }
+}
+
+.contenedor-carnes {
+
+    display: none;
 }
 
 .contenido-carnes {
@@ -416,6 +434,11 @@ a {
     }
 }
 
+.contenedor-bocadillos-calientes {
+
+    display: none;
+}
+
 .contenido-bocadillos-calientes {
     text-align: center;
     display: inline-grid;
@@ -482,6 +505,11 @@ a {
     }
 }
 
+.contenedor-bocadillos-frios {
+
+    display: none;
+}
+
 .contenido-bocadillos-frios {
     text-align: center;
     display: inline-grid;
@@ -545,6 +573,11 @@ a {
         height: 100px;
 
     }
+}
+
+.contenedor-postres {
+
+    display: none;
 }
 
 .contenido-postres {
@@ -613,6 +646,11 @@ a {
     }
 }
 
+.contenedor-bebidas {
+
+    display: none;
+}
+
 .contenido-bebidas {
     text-align: center;
     display: inline-grid;
@@ -624,3 +662,8 @@ a {
 }
 
 /* /////////// FIN BEBIDAS //////////// */
+
+.pie-pagina {
+
+    text-align: center;
+}
